@@ -1,0 +1,176 @@
+{
+  "versao": 1,
+  "atualizadoEm": "2026-10-08",
+  "ivar": {
+    "2024-01": 4.34,
+    "2024-02": 1.79,
+    "2024-03": 1.06,
+    "2024-04": 1.4,
+    "2024-05": 0.21,
+    "2024-06": 0.61,
+    "2024-07": -0.18,
+    "2024-08": 1.93,
+    "2024-09": 0.33,
+    "2024-10": -0.89,
+    "2024-11": -0.88,
+    "2024-12": -1.28,
+    "2025-01": 3.73,
+    "2025-02": 1.81,
+    "2025-03": -0.31,
+    "2025-04": 0.79,
+    "2025-05": -0.56,
+    "2025-06": 1.02,
+    "2025-07": 0.06,
+    "2025-08": 0.28,
+    "2025-09": 0.3,
+    "2025-10": 0.57,
+    "2025-11": 0.37,
+    "2025-12": 0.51,
+    "2026-01": 0.65,
+    "2026-02": 0.29,
+    "2026-03": 0.4,
+    "2026-04": 0.52,
+    "2026-05": 0.33,
+    "2026-06": 0.1,
+    "2026-07": 0.66,
+    "2026-08": 0.29
+  },
+  "itbi": [
+    {
+      "municipio": "São Paulo",
+      "uf": "SP",
+      "aliquotaPadrao": 3.0,
+      "fonte": "Prefeitura de São Paulo, Secretaria Municipal da Fazenda",
+      "conferidoEm": "outubro/2026",
+      "preliminar": false,
+      "sfh": {
+        "aliquota": 0.5,
+        "limiteFinanciado": 120968.0,
+        "limiteImovel": 725808.0,
+        "descricao": "SFH, PAR, HIS ou consórcio, contratos a partir de 01/01/2026: 0,5% sobre o valor financiado até R$ 120.968,00 e 3% sobre o restante, para imóveis de até R$ 725.808,00. Financiamento pelo SFI paga 3% sobre tudo."
+      },
+      "opcoes": []
+    },
+    {
+      "municipio": "Santos",
+      "uf": "SP",
+      "aliquotaPadrao": 2.0,
+      "fonte": "Prefeitura de Santos, perguntas frequentes sobre o ITBI",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "A página da prefeitura consultada é antiga. A alíquota de 2% foi confirmada pela prefeitura em 2022; a regra do SFH precisa ser reconfirmada.",
+      "sfh": {
+        "aliquota": 1.0,
+        "descricao": "Financiamento pelo SFH: 1% sobre o valor financiado e 2% sobre a parte não financiada."
+      },
+      "opcoes": [
+        {
+          "rotulo": "Cooperativa habitacional ou COHAB",
+          "aliquota": 0.5,
+          "descricao": "Aquisições por cooperativas habitacionais para moradias populares e COHABs."
+        }
+      ]
+    },
+    {
+      "municipio": "Salvador",
+      "uf": "BA",
+      "aliquotaPadrao": 3.0,
+      "fonte": "Sefaz Salvador, Plantão Fiscal (ITIV)",
+      "conferidoEm": "outubro/2026",
+      "preliminar": false,
+      "opcoes": [
+        {
+          "rotulo": "Imóvel popular",
+          "aliquota": 1.0,
+          "descricao": "A Sefaz Salvador aplica 1% nas transmissões de imóveis populares. Confirme o enquadramento com a Prefeitura."
+        }
+      ]
+    },
+    {
+      "municipio": "Ilhéus",
+      "uf": "BA",
+      "aliquotaPadrao": 3.0,
+      "fonte": "Código Tributário de Ilhéus, Lei 3.723/2014, art. 90",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "Regra tirada do texto da lei de 2014. Confirme se houve alteração posterior.",
+      "opcoes": [
+        {
+          "rotulo": "Imóvel popular",
+          "aliquota": 1.5,
+          "descricao": "Redução de 50% da alíquota para imóvel popular, conforme definido pela Prefeitura."
+        }
+      ]
+    },
+    {
+      "municipio": "Feira de Santana",
+      "uf": "BA",
+      "aliquotaPadrao": 2.0,
+      "fonte": "Código Tributário de Feira de Santana, LC 3/2000, art. 102",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "Regra tirada do texto original de 2000. O Código já foi alterado várias vezes, inclusive em 2025.",
+      "opcoes": [
+        {
+          "rotulo": "Financiado pelo SFH",
+          "aliquota": 1.5,
+          "descricao": "Alíquota de 1,5% nas transmissões pelo Sistema Financeiro de Habitação."
+        }
+      ]
+    },
+    {
+      "municipio": "Vitória da Conquista",
+      "uf": "BA",
+      "aliquotaPadrao": 5.0,
+      "fonte": "Código Tributário de Vitória da Conquista, LC 2.645/2022, e portal da transparência do município",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "O Código prevê 5% com desconto de 50% para quem recolhe antecipadamente, o que resulta em 2,5%, valor citado pelo portal da transparência.",
+      "opcoes": [
+        {
+          "rotulo": "Pagamento antecipado (desconto de 50%)",
+          "aliquota": 2.5,
+          "marcadaPorPadrao": true,
+          "descricao": "Desconto de 50% para quem recolhe o ITBI antecipadamente."
+        }
+      ]
+    }
+  ],
+  "bancos": {
+    "caixa": {
+      "taxa": null,
+      "nominal": false,
+      "mip": null,
+      "dfi": null,
+      "tarifa": null
+    },
+    "bb": {
+      "taxa": null,
+      "nominal": false,
+      "mip": null,
+      "dfi": null,
+      "tarifa": null
+    },
+    "itau": {
+      "taxa": null,
+      "nominal": false,
+      "mip": null,
+      "dfi": null,
+      "tarifa": null
+    },
+    "santander": {
+      "taxa": null,
+      "nominal": false,
+      "mip": null,
+      "dfi": null,
+      "tarifa": null
+    },
+    "bradesco": {
+      "taxa": null,
+      "nominal": false,
+      "mip": null,
+      "dfi": null,
+      "tarifa": null
+    }
+  }
+}
