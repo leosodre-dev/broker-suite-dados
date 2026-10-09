@@ -34,7 +34,6 @@
     "2026-06": 0.1,
     "2026-07": 0.66,
     "2026-08": 0.29
-    "2026-09": 0.28
   },
   "itbi": [
     {
@@ -139,36 +138,36 @@
   ],
   "bancos": {
     "caixa": {
-      "taxa": null,
-      "nominal": false,
+      "taxa": 11.19,
+      "nominal": true,
       "mip": null,
       "dfi": null,
       "tarifa": null
     },
     "bb": {
-      "taxa": null,
-      "nominal": false,
+      "taxa": 11.6,
+      "nominal": true,
       "mip": null,
       "dfi": null,
       "tarifa": null
     },
     "itau": {
-      "taxa": null,
-      "nominal": false,
+      "taxa": 11.99,
+      "nominal": true,
       "mip": null,
       "dfi": null,
       "tarifa": null
     },
     "santander": {
-      "taxa": null,
-      "nominal": false,
+      "taxa": 11.69,
+      "nominal": true,
       "mip": null,
       "dfi": null,
       "tarifa": null
     },
     "bradesco": {
-      "taxa": null,
-      "nominal": false,
+      "taxa": 11.45,
+      "nominal": true,
       "mip": null,
       "dfi": null,
       "tarifa": null
