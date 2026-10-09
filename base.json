@@ -130,7 +130,7 @@
         {
           "rotulo": "Pagamento antecipado (desconto de 50%)",
           "aliquota": 2.5,
-          "marcadaPorPadrao": true,
+          "marcadaPorPadrao": false,
           "descricao": "Desconto de 50% para quem recolhe o ITBI antecipadamente."
         }
       ]
@@ -174,7 +174,7 @@
     }
   },
   "mcmv": {
-    "fonte": "Portaria MCID nº 333/2026 e taxas de referência do programa (outubro/2026)",
+    "fonte": "Ministério das Cidades, página MCMV-FGTS (atualizada em 28/06/2026), e Portaria MCID nº 333/2026",
     "faixas": [
       {
         "faixa": 1,
@@ -203,7 +203,42 @@
             ]
           }
         },
-        "tetoImovelMinimo": 210000
+        "tetoImovelMinimo": 210000,
+        "degraus": [
+          {
+            "rendaMaxima": 2160,
+            "norteNordeste": {
+              "cotista": 4.0,
+              "naoCotista": 4.5
+            },
+            "demais": {
+              "cotista": 4.25,
+              "naoCotista": 4.75
+            }
+          },
+          {
+            "rendaMaxima": 2850,
+            "norteNordeste": {
+              "cotista": 4.25,
+              "naoCotista": 4.75
+            },
+            "demais": {
+              "cotista": 4.5,
+              "naoCotista": 5.0
+            }
+          },
+          {
+            "rendaMaxima": 3200,
+            "norteNordeste": {
+              "cotista": 4.5,
+              "naoCotista": 5.0
+            },
+            "demais": {
+              "cotista": 4.75,
+              "naoCotista": 5.25
+            }
+          }
+        ]
       },
       {
         "faixa": 2,
@@ -232,7 +267,42 @@
             ]
           }
         },
-        "tetoImovelMinimo": 210000
+        "tetoImovelMinimo": 210000,
+        "degraus": [
+          {
+            "rendaMaxima": 3500,
+            "norteNordeste": {
+              "cotista": 4.75,
+              "naoCotista": 5.25
+            },
+            "demais": {
+              "cotista": 5.0,
+              "naoCotista": 5.5
+            }
+          },
+          {
+            "rendaMaxima": 4000,
+            "norteNordeste": {
+              "cotista": 5.5,
+              "naoCotista": 6.0
+            },
+            "demais": {
+              "cotista": 5.5,
+              "naoCotista": 6.0
+            }
+          },
+          {
+            "rendaMaxima": 5000,
+            "norteNordeste": {
+              "cotista": 6.5,
+              "naoCotista": 7.0
+            },
+            "demais": {
+              "cotista": 6.5,
+              "naoCotista": 7.0
+            }
+          }
+        ]
       },
       {
         "faixa": 3,
@@ -260,7 +330,20 @@
               8.16
             ]
           }
-        }
+        },
+        "degraus": [
+          {
+            "rendaMaxima": 9600,
+            "norteNordeste": {
+              "cotista": 7.66,
+              "naoCotista": 8.16
+            },
+            "demais": {
+              "cotista": 7.66,
+              "naoCotista": 8.16
+            }
+          }
+        ]
       },
       {
         "faixa": 4,
@@ -274,8 +357,8 @@
               10.0
             ],
             "naoCotista": [
-              10.5,
-              10.5
+              10.0,
+              10.0
             ]
           },
           "demais": {
@@ -284,11 +367,24 @@
               10.0
             ],
             "naoCotista": [
-              10.5,
-              10.5
+              10.0,
+              10.0
             ]
           }
-        }
+        },
+        "degraus": [
+          {
+            "rendaMaxima": 13000,
+            "norteNordeste": {
+              "cotista": 10.0,
+              "naoCotista": 10.0
+            },
+            "demais": {
+              "cotista": 10.0,
+              "naoCotista": 10.0
+            }
+          }
+        ]
       }
     ]
   },
