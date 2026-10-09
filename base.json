@@ -172,5 +172,134 @@
       "dfi": null,
       "tarifa": null
     }
+  },
+  "mcmv": {
+    "fonte": "Portaria MCID nº 333/2026 e taxas de referência do programa (outubro/2026)",
+    "faixas": [
+      {
+        "faixa": 1,
+        "rendaMaxima": 3200,
+        "tetoImovel": 275000,
+        "subsidio": true,
+        "taxas": {
+          "norteNordeste": {
+            "cotista": [
+              4.0,
+              4.5
+            ],
+            "naoCotista": [
+              4.5,
+              5.0
+            ]
+          },
+          "demais": {
+            "cotista": [
+              4.25,
+              4.75
+            ],
+            "naoCotista": [
+              4.75,
+              5.25
+            ]
+          }
+        },
+        "tetoImovelMinimo": 210000
+      },
+      {
+        "faixa": 2,
+        "rendaMaxima": 5000,
+        "tetoImovel": 275000,
+        "subsidio": true,
+        "taxas": {
+          "norteNordeste": {
+            "cotista": [
+              4.75,
+              6.5
+            ],
+            "naoCotista": [
+              5.25,
+              7.0
+            ]
+          },
+          "demais": {
+            "cotista": [
+              5.0,
+              6.5
+            ],
+            "naoCotista": [
+              5.5,
+              7.0
+            ]
+          }
+        },
+        "tetoImovelMinimo": 210000
+      },
+      {
+        "faixa": 3,
+        "rendaMaxima": 9600,
+        "tetoImovel": 400000,
+        "subsidio": true,
+        "taxas": {
+          "norteNordeste": {
+            "cotista": [
+              7.66,
+              7.66
+            ],
+            "naoCotista": [
+              8.16,
+              8.16
+            ]
+          },
+          "demais": {
+            "cotista": [
+              7.66,
+              7.66
+            ],
+            "naoCotista": [
+              8.16,
+              8.16
+            ]
+          }
+        }
+      },
+      {
+        "faixa": 4,
+        "rendaMaxima": 13000,
+        "tetoImovel": 600000,
+        "subsidio": false,
+        "taxas": {
+          "norteNordeste": {
+            "cotista": [
+              10.0,
+              10.0
+            ],
+            "naoCotista": [
+              10.5,
+              10.5
+            ]
+          },
+          "demais": {
+            "cotista": [
+              10.0,
+              10.0
+            ],
+            "naoCotista": [
+              10.5,
+              10.5
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "procotista": {
+    "caixa": {
+      "taxa": 9.01,
+      "nominal": true
+    },
+    "bb": {
+      "taxa": 9.0,
+      "nominal": true
+    }
   }
 }
