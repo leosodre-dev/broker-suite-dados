@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-10-09",
+  "atualizadoEm": "2026-10-16",
   "ivar": {
     "2024-01": 4.34,
     "2024-02": 1.79,
@@ -138,8 +138,8 @@
   ],
   "bancos": {
     "caixa": {
-      "taxa": 11.19,
-      "nominal": true,
+      "taxa": 11.49,
+      "nominal": false,
       "mip": null,
       "dfi": null,
       "tarifa": null
