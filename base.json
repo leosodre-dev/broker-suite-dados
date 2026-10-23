@@ -393,6 +393,38 @@
       "preliminar": true,
       "observacao": "Alíquota única de 2%, sem redução para a parte financiada, segundo fonte não oficial.",
       "opcoes": []
+    },
+    {
+      "municipio": "Manaus",
+      "uf": "AM",
+      "aliquotaPadrao": 2.0,
+      "fonte": "Prefeitura de Manaus (notícia oficial sobre a Lei 2.571/2019, que alterou a Lei 459/1998)",
+      "conferidoEm": "outubro/2026",
+      "preliminar": false,
+      "observacao": "Desde março/2020 o ITBI é pago após o registro, a 2% (até 30 dias). Pago até a escritura: 1,8% (opção já marcada); pago até o registro: 1,9%. Atraso tem acréscimo de 80%. A Lei 459/1998 previa 0,5% sobre o financiado só em habitação popular: confirme com a SEMEF.",
+      "opcoes": [
+        {
+          "rotulo": "Pago até a escritura (1,8%)",
+          "aliquota": 1.8,
+          "marcadaPorPadrao": true,
+          "descricao": "1,8% quando o ITBI é pago até a lavratura da escritura (Lei 2.571/2019)."
+        },
+        {
+          "rotulo": "Pago até o registro (1,9%)",
+          "aliquota": 1.9,
+          "descricao": "1,9% quando o ITBI é pago até o registro no cartório de imóveis (Lei 2.571/2019)."
+        }
+      ]
+    },
+    {
+      "municipio": "Belém",
+      "uf": "PA",
+      "aliquotaPadrao": 3.0,
+      "fonte": "Jornal O Liberal (06/07/2026), citando a Prefeitura de Belém",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "Alíquota normal de 3%. O desconto de 50% da Lei 10.308/2026 valeu só até 31/07/2026. O site da Sefin Belém não abre para leitura automática: confirmar regras de financiamento.",
+      "opcoes": []
     }
   ],
   "bancos": {
