@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-10-22",
+  "atualizadoEm": "2026-10-23",
   "ivar": {
     "2024-01": 4.34,
     "2024-02": 1.79,
@@ -680,12 +680,13 @@
     ]
   },
   "procotista": {
+    "fonte": "Ministério das Cidades, Minha Casa, Minha Vida - Linha Financiada (tabela de taxa de juros nominal, atualizada em 28/06/2026): Pró-Cotista 8,66% ao ano nominal (~9,01% efetiva). Conferido em 23/10/2026.",
     "caixa": {
-      "taxa": 9.01,
+      "taxa": 8.66,
       "nominal": true
     },
     "bb": {
-      "taxa": 9.0,
+      "taxa": 8.66,
       "nominal": true
     }
   }
