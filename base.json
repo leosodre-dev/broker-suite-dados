@@ -298,6 +298,101 @@
           "descricao": "0,5% em programas habitacionais específicos (EMHA, AGEHAB, FAR). Alguns programas de interesse social são isentos: confirme com a Prefeitura."
         }
       ]
+    },
+    {
+      "municipio": "Recife",
+      "uf": "PE",
+      "aliquotaPadrao": 3.0,
+      "fonte": "Prefeitura do Recife, Recife em Dia (perguntas frequentes); Lei 15.563/1991 (Código Tributário), art. 52",
+      "conferidoEm": "outubro/2026",
+      "preliminar": false,
+      "observacao": "A alíquota cai para 1,8% quando o ITBI é solicitado em até 180 dias (da assinatura do contrato particular ou do habite-se, conforme o caso). Essa opção vem marcada; desmarque se o prazo não for cumprido.",
+      "sfh": {
+        "aliquota": 1.0,
+        "limiteFinanciado": 945278.12,
+        "descricao": "Financiamento pelo SFH: 1% sobre a parte financiada até R$ 945.278,12; o restante paga a alíquota escolhida (1,8% no prazo de 180 dias)."
+      },
+      "opcoes": [
+        {
+          "rotulo": "Solicitado em até 180 dias (1,8%)",
+          "aliquota": 1.8,
+          "marcadaPorPadrao": true,
+          "descricao": "1,8% quando o ITBI é solicitado em até 180 dias da assinatura do contrato particular ou do habite-se."
+        }
+      ]
+    },
+    {
+      "municipio": "Fortaleza",
+      "uf": "CE",
+      "aliquotaPadrao": 4.0,
+      "fonte": "Prefeitura de Fortaleza, Sefin, página do ITBI (limite do SFH atualizado para 2026)",
+      "conferidoEm": "outubro/2026",
+      "preliminar": false,
+      "observacao": "A alíquota geral é 4%, mas cai para 2% quando o imposto é pago antes da escritura (opção já marcada). O valor da corretagem com nota fiscal emitida no sistema da Sefin reduz a base de cálculo.",
+      "sfh": {
+        "aliquota": 0.5,
+        "limiteFinanciado": 390672.24,
+        "descricao": "Financiamento pelo SFH: 0,5% sobre o valor efetivamente financiado até R$ 390.672,24 (2026); o restante paga a alíquota escolhida."
+      },
+      "opcoes": [
+        {
+          "rotulo": "Pago antes da escritura (2%)",
+          "aliquota": 2.0,
+          "marcadaPorPadrao": true,
+          "descricao": "2% quando o ITBI é pago antes da lavratura do instrumento (até o dia anterior)."
+        }
+      ]
+    },
+    {
+      "municipio": "Maceió",
+      "uf": "AL",
+      "aliquotaPadrao": 3.0,
+      "fonte": "Código Tributário de Maceió, Lei 4.486/1996, art. 34 (texto compilado publicado pela Secretaria de Finanças em 2016)",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "Texto compilado de 2016: confirmar se houve mudança. A alíquota cai para 2% com pagamento até a lavratura (ou processo aberto em até 30 dias); opção já marcada.",
+      "sfh": {
+        "aliquota": 0.5,
+        "descricao": "Financiamento pelo SFH: 0,5% sobre a parcela financiada e 2% sobre o restante."
+      },
+      "opcoes": [
+        {
+          "rotulo": "Pagamento até a lavratura (2%)",
+          "aliquota": 2.0,
+          "marcadaPorPadrao": true,
+          "descricao": "2% quando o ITBI é pago até a lavratura do instrumento ou o processo é aberto em até 30 dias da assinatura."
+        }
+      ]
+    },
+    {
+      "municipio": "Natal",
+      "uf": "RN",
+      "aliquotaPadrao": 3.0,
+      "fonte": "Fontes secundárias (imobiliária local e tabela de ITBI por cidade, março/2026); Decreto 9.795/2012",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "Em Natal o imposto se chama ITIV. Sem alíquota reduzida para financiamento. A primeira transmissão de habitação popular para comprador de baixa renda tem tratamento especial (Decreto 9.795/2012): confirme com a SEMUT.",
+      "opcoes": []
+    },
+    {
+      "municipio": "João Pessoa",
+      "uf": "PB",
+      "aliquotaPadrao": 3.0,
+      "fonte": "Jornal da Paraíba (Diretoria de Tributação do município, Código Tributário Municipal) e tabela de ITBI por cidade (março/2026)",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "Alíquota de 3% para residenciais e comerciais, sem redução para a parte financiada, segundo fontes não oficiais.",
+      "opcoes": []
+    },
+    {
+      "municipio": "Aracaju",
+      "uf": "SE",
+      "aliquotaPadrao": 2.0,
+      "fonte": "Código Tributário de Aracaju, art. 188 (citado por fonte secundária de 2021)",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "Alíquota única de 2%, sem redução para a parte financiada, segundo fonte não oficial.",
+      "opcoes": []
     }
   ],
   "bancos": {
