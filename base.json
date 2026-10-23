@@ -227,6 +227,77 @@
       "preliminar": true,
       "observacao": "A alíquota de 3% é citada de forma consistente, mas não foi lida em página oficial da Prefeitura. A lei prevê 0,5% só para a parte financiada pelo SFH em cooperativas, com teto em UPF não confirmado; por isso o app usa 3% sobre tudo.",
       "opcoes": []
+    },
+    {
+      "municipio": "Brasília",
+      "uf": "DF",
+      "aliquotaPadrao": 2.0,
+      "fonte": "Receita do Distrito Federal, manual do ITBI; Lei distrital 7.635/2024",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "Desde 2025 a alíquota única de 3% foi substituída por 2% (casos em geral) e 1% (imóvel novo na primeira transferência). O manual oficial fala do exercício de 2025: confirmar se continua igual em 2026. Não há alíquota reduzida para a parte financiada.",
+      "opcoes": [
+        {
+          "rotulo": "Imóvel novo, primeira transferência",
+          "aliquota": 1.0,
+          "descricao": "1% na primeira transmissão de imóvel novo edificado (Lei 7.635/2024)."
+        }
+      ]
+    },
+    {
+      "municipio": "Goiânia",
+      "uf": "GO",
+      "aliquotaPadrao": 2.0,
+      "fonte": "Código Tributário de Goiânia, LC 344/2021, art. 203 (conforme fonte secundária lida em 09/10/2026)",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "Alíquota única de 2%, também no financiamento (a LC 344/2021 não cria faixas reduzidas). Texto da lei não lido em página oficial.",
+      "opcoes": []
+    },
+    {
+      "municipio": "Cuiabá",
+      "uf": "MT",
+      "aliquotaPadrao": 2.0,
+      "fonte": "Código Tributário de Cuiabá, LC 43/1997, art. 228 (fonte secundária); isenções e reduções: Portal da Fazenda de Cuiabá",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "Alíquotas de 2% e 0,5% (SFH) tiradas de texto de 2010 sobre o Código Tributário; o portal oficial não mostra as alíquotas gerais. Sem teto conhecido para a parte financiada.",
+      "sfh": {
+        "aliquota": 0.5,
+        "descricao": "Financiamento pelo SFH: 0,5% sobre o valor efetivamente financiado e 2% sobre o restante."
+      },
+      "opcoes": [
+        {
+          "rotulo": "PAR / FAR (arrendamento residencial)",
+          "aliquota": 0.5,
+          "descricao": "0,5% nas aquisições pelo Programa de Arrendamento Residencial (LC 57/1999, art. 2º)."
+        },
+        {
+          "rotulo": "Programa habitacional (renda até 6 salários mínimos)",
+          "aliquota": 0.0,
+          "descricao": "Isenção para famílias com renda de até 6 salários mínimos em programas habitacionais (LC 312/2013, art. 5º). Confirme as condições com a Prefeitura."
+        }
+      ]
+    },
+    {
+      "municipio": "Campo Grande",
+      "uf": "MS",
+      "aliquotaPadrao": 2.0,
+      "fonte": "Prefeitura de Campo Grande, portal ITBI-e (perguntas frequentes)",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "Alíquotas do portal oficial, que não cita a lei nem informa teto para a parte financiada pelo SFH.",
+      "sfh": {
+        "aliquota": 0.5,
+        "descricao": "Financiamento pelo SFH: 0,5% sobre o valor financiado e 2% sobre o valor que exceder o financiamento."
+      },
+      "opcoes": [
+        {
+          "rotulo": "Programa habitacional específico",
+          "aliquota": 0.5,
+          "descricao": "0,5% em programas habitacionais específicos (EMHA, AGEHAB, FAR). Alguns programas de interesse social são isentos: confirme com a Prefeitura."
+        }
+      ]
     }
   ],
   "bancos": {
