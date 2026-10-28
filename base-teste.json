@@ -1,0 +1,693 @@
+{
+  "versao": 1,
+  "atualizadoEm": "2026-10-23",
+  "ivar": {
+    "2024-01": 4.34,
+    "2024-02": 1.79,
+    "2024-03": 1.06,
+    "2024-04": 1.4,
+    "2024-05": 0.21,
+    "2024-06": 0.61,
+    "2024-07": -0.18,
+    "2024-08": 1.93,
+    "2024-09": 0.33,
+    "2024-10": -0.89,
+    "2024-11": -0.88,
+    "2024-12": -1.28,
+    "2025-01": 3.73,
+    "2025-02": 1.81,
+    "2025-03": -0.31,
+    "2025-04": 0.79,
+    "2025-05": -0.56,
+    "2025-06": 1.02,
+    "2025-07": 0.06,
+    "2025-08": 0.28,
+    "2025-09": 0.3,
+    "2025-10": 0.57,
+    "2025-11": 0.37,
+    "2025-12": 0.51,
+    "2026-01": 0.65,
+    "2026-02": 0.29,
+    "2026-03": 0.4,
+    "2026-04": 0.52,
+    "2026-05": 0.33,
+    "2026-06": 0.1,
+    "2026-07": 0.66,
+    "2026-08": 0.29,
+    "2026-09": 0.28
+  },
+  "itbi": [
+    {
+      "municipio": "São Paulo",
+      "uf": "SP",
+      "aliquotaPadrao": 3.0,
+      "fonte": "Prefeitura de São Paulo, Secretaria Municipal da Fazenda",
+      "conferidoEm": "outubro/2026",
+      "preliminar": false,
+      "sfh": {
+        "aliquota": 0.5,
+        "limiteFinanciado": 120968.0,
+        "limiteImovel": 725808.0,
+        "descricao": "SFH, PAR, HIS ou consórcio, contratos a partir de 01/01/2026: 0,5% sobre o valor financiado até R$ 120.968,00 e 3% sobre o restante, para imóveis de até R$ 725.808,00. Financiamento pelo SFI paga 3% sobre tudo."
+      },
+      "opcoes": []
+    },
+    {
+      "municipio": "Santos",
+      "uf": "SP",
+      "aliquotaPadrao": 2.0,
+      "fonte": "Prefeitura de Santos, perguntas frequentes sobre o ITBI",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "A página da prefeitura consultada é antiga. A alíquota de 2% foi confirmada pela prefeitura em 2022; a regra do SFH precisa ser reconfirmada.",
+      "sfh": {
+        "aliquota": 1.0,
+        "descricao": "Financiamento pelo SFH: 1% sobre o valor financiado e 2% sobre a parte não financiada."
+      },
+      "opcoes": [
+        {
+          "rotulo": "Cooperativa habitacional ou COHAB",
+          "aliquota": 0.5,
+          "descricao": "Aquisições por cooperativas habitacionais para moradias populares e COHABs."
+        }
+      ]
+    },
+    {
+      "municipio": "Salvador",
+      "uf": "BA",
+      "aliquotaPadrao": 3.0,
+      "fonte": "Sefaz Salvador, Plantão Fiscal (ITIV)",
+      "conferidoEm": "outubro/2026",
+      "preliminar": false,
+      "opcoes": [
+        {
+          "rotulo": "Imóvel popular",
+          "aliquota": 1.0,
+          "descricao": "A Sefaz Salvador aplica 1% nas transmissões de imóveis populares. Confirme o enquadramento com a Prefeitura."
+        }
+      ]
+    },
+    {
+      "municipio": "Ilhéus",
+      "uf": "BA",
+      "aliquotaPadrao": 3.0,
+      "fonte": "Código Tributário de Ilhéus, Lei 3.723/2014, art. 90",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "Regra tirada do texto da lei de 2014. Confirme se houve alteração posterior.",
+      "opcoes": [
+        {
+          "rotulo": "Imóvel popular",
+          "aliquota": 1.5,
+          "descricao": "Redução de 50% da alíquota para imóvel popular, conforme definido pela Prefeitura."
+        }
+      ]
+    },
+    {
+      "municipio": "Feira de Santana",
+      "uf": "BA",
+      "aliquotaPadrao": 2.0,
+      "fonte": "Código Tributário de Feira de Santana, LC 3/2000, art. 102",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "Regra tirada do texto original de 2000. O Código já foi alterado várias vezes, inclusive em 2025.",
+      "opcoes": [
+        {
+          "rotulo": "Financiado pelo SFH",
+          "aliquota": 1.5,
+          "descricao": "Alíquota de 1,5% nas transmissões pelo Sistema Financeiro de Habitação."
+        }
+      ]
+    },
+    {
+      "municipio": "Vitória da Conquista",
+      "uf": "BA",
+      "aliquotaPadrao": 5.0,
+      "fonte": "Código Tributário de Vitória da Conquista, LC 2.645/2022, e portal da transparência do município",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "O Código prevê 5% com desconto de 50% para quem recolhe antecipadamente, o que resulta em 2,5%, valor citado pelo portal da transparência.",
+      "opcoes": [
+        {
+          "rotulo": "Pagamento antecipado (desconto de 50%)",
+          "aliquota": 2.5,
+          "marcadaPorPadrao": true,
+          "descricao": "Desconto de 50% para quem recolhe o ITBI antecipadamente."
+        }
+      ]
+    },
+    {
+      "municipio": "Porto Alegre",
+      "uf": "RS",
+      "aliquotaPadrao": 3.0,
+      "fonte": "Prefeitura de Porto Alegre, Carta de Serviços do ITBI (atualizada em 16/04/2026); LC 197/1989; UFM 2026 = R$ 6,0411 (SMF)",
+      "conferidoEm": "outubro/2026",
+      "preliminar": false,
+      "sfh": {
+        "aliquota": 0.5,
+        "limiteFinanciado": 410794.8,
+        "descricao": "Financiamento imobiliário residencial (inclusive consórcio) com prazo mínimo de 5 anos: 0,5% sobre o valor efetivamente financiado e sobre o FGTS usado, até 68.000 UFM (R$ 410.794,80 em 2026); o que passar do teto e a parte não financiada pagam 3%."
+      },
+      "opcoes": []
+    },
+    {
+      "municipio": "Curitiba",
+      "uf": "PR",
+      "aliquotaPadrao": 2.7,
+      "fonte": "Prefeitura de Curitiba, Guia de Serviços: ITBI, base de cálculo e alíquotas; LC 108/2017 (alterada pela LC 148/2025)",
+      "conferidoEm": "outubro/2026",
+      "preliminar": false,
+      "observacao": "As alíquotas reduzidas valem para imóvel construído, residencial, financiado por 10 anos ou mais com hipoteca ou alienação fiduciária, conforme a faixa de valor do imóvel. Acima de R$ 220.000,00 vale a alíquota geral de 2,7%.",
+      "opcoes": [
+        {
+          "rotulo": "Financiado (10+ anos), imóvel até R$ 176.000",
+          "aliquota": 0.0,
+          "descricao": "Imóvel residencial construído, financiado por prazo de 10 anos ou mais, de até R$ 176.000,00: isento."
+        },
+        {
+          "rotulo": "Financiado (10+ anos), imóvel até R$ 205.000",
+          "aliquota": 0.5,
+          "descricao": "Imóvel residencial construído, financiado por prazo de 10 anos ou mais, de R$ 176.000,01 a R$ 205.000,00: 0,5%."
+        },
+        {
+          "rotulo": "Financiado (10+ anos), imóvel até R$ 220.000",
+          "aliquota": 1.6,
+          "descricao": "Imóvel residencial construído, financiado por prazo de 10 anos ou mais, de R$ 205.000,01 a R$ 220.000,00: 1,6%."
+        }
+      ]
+    },
+    {
+      "municipio": "Florianópolis",
+      "uf": "SC",
+      "aliquotaPadrao": 2.0,
+      "fonte": "Código Tributário de Florianópolis, LC 7/1997, art. 285, II (citado pelo 1º Tabelionato de Notas da Capital)",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "A alíquota geral de 2% está confirmada. No SFH, PAR e HIS a lei prevê 0,5% sobre o valor financiado até um teto corrigido periodicamente (cerca de R$ 226 mil segundo fontes não oficiais). Como o teto não foi confirmado na Prefeitura, o app usa 2% sobre tudo (estimativa maior). Imóvel exclusivamente residencial de valor venal até R$ 100.000 é isento.",
+      "opcoes": [
+        {
+          "rotulo": "Residencial com valor venal até R$ 100.000",
+          "aliquota": 0.0,
+          "descricao": "Isenção para imóvel exclusivamente residencial com valor venal de até R$ 100.000,00 (LC 7/1997). Confirme as condições com a Prefeitura."
+        }
+      ]
+    },
+    {
+      "municipio": "Belo Horizonte",
+      "uf": "MG",
+      "aliquotaPadrao": 3.0,
+      "fonte": "Prefeitura de Belo Horizonte, Secretaria da Fazenda, página do ITBI (valores de 2026); Lei 10.692/2013",
+      "conferidoEm": "outubro/2026",
+      "preliminar": false,
+      "observacao": "Não há alíquota reduzida para a parte financiada. As reduções e isenções abaixo dependem de enquadramento pela Prefeitura.",
+      "opcoes": [
+        {
+          "rotulo": "Residencial padrão P1, base até R$ 254.292,79 (50%)",
+          "aliquota": 1.5,
+          "descricao": "Redução de 50% para casa, apartamento ou barracão residencial de acabamento padrão P1 com base de cálculo até R$ 254.292,79 (Lei 10.692/2013, art. 1º)."
+        },
+        {
+          "rotulo": "Residencial com valor venal até R$ 74.595,39",
+          "aliquota": 0.0,
+          "descricao": "Isenção para imóvel residencial com valor venal de até R$ 74.595,39 (Lei 8.147, valor de 2026)."
+        },
+        {
+          "rotulo": "Programa habitacional (MCMV, PAR, URBEL, COHAB)",
+          "aliquota": 0.0,
+          "descricao": "Isenção em programas habitacionais, com limites de valor e de renda (Leis 9.814/2010 e 10.626/2013). Confirme o enquadramento com a Prefeitura."
+        }
+      ]
+    },
+    {
+      "municipio": "Rio de Janeiro",
+      "uf": "RJ",
+      "aliquotaPadrao": 3.0,
+      "fonte": "Lei 1.364/1988, art. 19, II (redação da Lei 6.250/2017), conforme fontes secundárias",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "A alíquota de 3% é citada de forma consistente, mas não foi lida em página oficial da Prefeitura. A lei prevê 0,5% só para a parte financiada pelo SFH em cooperativas, com teto em UPF não confirmado; por isso o app usa 3% sobre tudo.",
+      "opcoes": []
+    },
+    {
+      "municipio": "Brasília",
+      "uf": "DF",
+      "aliquotaPadrao": 2.0,
+      "fonte": "Receita do Distrito Federal, manual do ITBI; Lei distrital 7.635/2024",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "Desde 2025 a alíquota única de 3% foi substituída por 2% (casos em geral) e 1% (imóvel novo na primeira transferência). O manual oficial fala do exercício de 2025: confirmar se continua igual em 2026. Não há alíquota reduzida para a parte financiada.",
+      "opcoes": [
+        {
+          "rotulo": "Imóvel novo, primeira transferência",
+          "aliquota": 1.0,
+          "descricao": "1% na primeira transmissão de imóvel novo edificado (Lei 7.635/2024)."
+        }
+      ]
+    },
+    {
+      "municipio": "Goiânia",
+      "uf": "GO",
+      "aliquotaPadrao": 2.0,
+      "fonte": "Código Tributário de Goiânia, LC 344/2021, art. 203 (conforme fonte secundária lida em 09/10/2026)",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "Alíquota única de 2%, também no financiamento (a LC 344/2021 não cria faixas reduzidas). Texto da lei não lido em página oficial.",
+      "opcoes": []
+    },
+    {
+      "municipio": "Cuiabá",
+      "uf": "MT",
+      "aliquotaPadrao": 2.0,
+      "fonte": "Código Tributário de Cuiabá, LC 43/1997, art. 228 (fonte secundária); isenções e reduções: Portal da Fazenda de Cuiabá",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "Alíquotas de 2% e 0,5% (SFH) tiradas de texto de 2010 sobre o Código Tributário; o portal oficial não mostra as alíquotas gerais. Sem teto conhecido para a parte financiada.",
+      "sfh": {
+        "aliquota": 0.5,
+        "descricao": "Financiamento pelo SFH: 0,5% sobre o valor efetivamente financiado e 2% sobre o restante."
+      },
+      "opcoes": [
+        {
+          "rotulo": "PAR / FAR (arrendamento residencial)",
+          "aliquota": 0.5,
+          "descricao": "0,5% nas aquisições pelo Programa de Arrendamento Residencial (LC 57/1999, art. 2º)."
+        },
+        {
+          "rotulo": "Programa habitacional (renda até 6 salários mínimos)",
+          "aliquota": 0.0,
+          "descricao": "Isenção para famílias com renda de até 6 salários mínimos em programas habitacionais (LC 312/2013, art. 5º). Confirme as condições com a Prefeitura."
+        }
+      ]
+    },
+    {
+      "municipio": "Campo Grande",
+      "uf": "MS",
+      "aliquotaPadrao": 2.0,
+      "fonte": "Prefeitura de Campo Grande, portal ITBI-e (perguntas frequentes)",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "Alíquotas do portal oficial, que não cita a lei nem informa teto para a parte financiada pelo SFH.",
+      "sfh": {
+        "aliquota": 0.5,
+        "descricao": "Financiamento pelo SFH: 0,5% sobre o valor financiado e 2% sobre o valor que exceder o financiamento."
+      },
+      "opcoes": [
+        {
+          "rotulo": "Programa habitacional específico",
+          "aliquota": 0.5,
+          "descricao": "0,5% em programas habitacionais específicos (EMHA, AGEHAB, FAR). Alguns programas de interesse social são isentos: confirme com a Prefeitura."
+        }
+      ]
+    },
+    {
+      "municipio": "Recife",
+      "uf": "PE",
+      "aliquotaPadrao": 3.0,
+      "fonte": "Prefeitura do Recife, Recife em Dia (perguntas frequentes); Lei 15.563/1991 (Código Tributário), art. 52",
+      "conferidoEm": "outubro/2026",
+      "preliminar": false,
+      "observacao": "A alíquota cai para 1,8% quando o ITBI é solicitado em até 180 dias (da assinatura do contrato particular ou do habite-se, conforme o caso). Essa opção vem marcada; desmarque se o prazo não for cumprido.",
+      "sfh": {
+        "aliquota": 1.0,
+        "limiteFinanciado": 945278.12,
+        "descricao": "Financiamento pelo SFH: 1% sobre a parte financiada até R$ 945.278,12; o restante paga a alíquota escolhida (1,8% no prazo de 180 dias)."
+      },
+      "opcoes": [
+        {
+          "rotulo": "Solicitado em até 180 dias (1,8%)",
+          "aliquota": 1.8,
+          "marcadaPorPadrao": true,
+          "descricao": "1,8% quando o ITBI é solicitado em até 180 dias da assinatura do contrato particular ou do habite-se."
+        }
+      ]
+    },
+    {
+      "municipio": "Fortaleza",
+      "uf": "CE",
+      "aliquotaPadrao": 4.0,
+      "fonte": "Prefeitura de Fortaleza, Sefin, página do ITBI (limite do SFH atualizado para 2026)",
+      "conferidoEm": "outubro/2026",
+      "preliminar": false,
+      "observacao": "A alíquota geral é 4%, mas cai para 2% quando o imposto é pago antes da escritura (opção já marcada). O valor da corretagem com nota fiscal emitida no sistema da Sefin reduz a base de cálculo.",
+      "sfh": {
+        "aliquota": 0.5,
+        "limiteFinanciado": 390672.24,
+        "descricao": "Financiamento pelo SFH: 0,5% sobre o valor efetivamente financiado até R$ 390.672,24 (2026); o restante paga a alíquota escolhida."
+      },
+      "opcoes": [
+        {
+          "rotulo": "Pago antes da escritura (2%)",
+          "aliquota": 2.0,
+          "marcadaPorPadrao": true,
+          "descricao": "2% quando o ITBI é pago antes da lavratura do instrumento (até o dia anterior)."
+        }
+      ]
+    },
+    {
+      "municipio": "Maceió",
+      "uf": "AL",
+      "aliquotaPadrao": 3.0,
+      "fonte": "Código Tributário de Maceió, Lei 4.486/1996, art. 34 (texto compilado publicado pela Secretaria de Finanças em 2016)",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "Texto compilado de 2016: confirmar se houve mudança. A alíquota cai para 2% com pagamento até a lavratura (ou processo aberto em até 30 dias); opção já marcada.",
+      "sfh": {
+        "aliquota": 0.5,
+        "descricao": "Financiamento pelo SFH: 0,5% sobre a parcela financiada e 2% sobre o restante."
+      },
+      "opcoes": [
+        {
+          "rotulo": "Pagamento até a lavratura (2%)",
+          "aliquota": 2.0,
+          "marcadaPorPadrao": true,
+          "descricao": "2% quando o ITBI é pago até a lavratura do instrumento ou o processo é aberto em até 30 dias da assinatura."
+        }
+      ]
+    },
+    {
+      "municipio": "Natal",
+      "uf": "RN",
+      "aliquotaPadrao": 3.0,
+      "fonte": "Fontes secundárias (imobiliária local e tabela de ITBI por cidade, março/2026); Decreto 9.795/2012",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "Em Natal o imposto se chama ITIV. Sem alíquota reduzida para financiamento. A primeira transmissão de habitação popular para comprador de baixa renda tem tratamento especial (Decreto 9.795/2012): confirme com a SEMUT.",
+      "opcoes": []
+    },
+    {
+      "municipio": "João Pessoa",
+      "uf": "PB",
+      "aliquotaPadrao": 3.0,
+      "fonte": "Jornal da Paraíba (Diretoria de Tributação do município, Código Tributário Municipal) e tabela de ITBI por cidade (março/2026)",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "Alíquota de 3% para residenciais e comerciais, sem redução para a parte financiada, segundo fontes não oficiais.",
+      "opcoes": []
+    },
+    {
+      "municipio": "Aracaju",
+      "uf": "SE",
+      "aliquotaPadrao": 2.0,
+      "fonte": "Código Tributário de Aracaju, art. 188 (citado por fonte secundária de 2021)",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "Alíquota única de 2%, sem redução para a parte financiada, segundo fonte não oficial.",
+      "opcoes": []
+    },
+    {
+      "municipio": "Manaus",
+      "uf": "AM",
+      "aliquotaPadrao": 2.0,
+      "fonte": "Prefeitura de Manaus (notícia oficial sobre a Lei 2.571/2019, que alterou a Lei 459/1998)",
+      "conferidoEm": "outubro/2026",
+      "preliminar": false,
+      "observacao": "Desde março/2020 o ITBI é pago após o registro, a 2% (até 30 dias). Pago até a escritura: 1,8% (opção já marcada); pago até o registro: 1,9%. Atraso tem acréscimo de 80%. A Lei 459/1998 previa 0,5% sobre o financiado só em habitação popular: confirme com a SEMEF.",
+      "opcoes": [
+        {
+          "rotulo": "Pago até a escritura (1,8%)",
+          "aliquota": 1.8,
+          "marcadaPorPadrao": true,
+          "descricao": "1,8% quando o ITBI é pago até a lavratura da escritura (Lei 2.571/2019)."
+        },
+        {
+          "rotulo": "Pago até o registro (1,9%)",
+          "aliquota": 1.9,
+          "descricao": "1,9% quando o ITBI é pago até o registro no cartório de imóveis (Lei 2.571/2019)."
+        }
+      ]
+    },
+    {
+      "municipio": "Belém",
+      "uf": "PA",
+      "aliquotaPadrao": 3.0,
+      "fonte": "Jornal O Liberal (06/07/2026), citando a Prefeitura de Belém",
+      "conferidoEm": "outubro/2026",
+      "preliminar": true,
+      "observacao": "Alíquota normal de 3%. O desconto de 50% da Lei 10.308/2026 valeu só até 31/07/2026. O site da Sefin Belém não abre para leitura automática: confirmar regras de financiamento.",
+      "opcoes": []
+    }
+  ],
+  "bancos": {
+    "caixa": {
+      "taxa": 11.49,
+      "nominal": false,
+      "mip": null,
+      "dfi": null,
+      "tarifa": null
+    },
+    "bb": {
+      "taxa": 11.6,
+      "nominal": true,
+      "mip": null,
+      "dfi": null,
+      "tarifa": null
+    },
+    "itau": {
+      "taxa": 11.99,
+      "nominal": true,
+      "mip": null,
+      "dfi": null,
+      "tarifa": null
+    },
+    "santander": {
+      "taxa": 11.69,
+      "nominal": true,
+      "mip": null,
+      "dfi": null,
+      "tarifa": null
+    },
+    "bradesco": {
+      "taxa": 11.45,
+      "nominal": true,
+      "mip": null,
+      "dfi": null,
+      "tarifa": null
+    }
+  },
+  "mcmv": {
+    "fonte": "Ministério das Cidades, página MCMV-FGTS (atualizada em 28/06/2026), e Portaria MCID nº 333/2026",
+    "faixas": [
+      {
+        "faixa": 1,
+        "rendaMaxima": 3200,
+        "tetoImovel": 275000,
+        "subsidio": true,
+        "taxas": {
+          "norteNordeste": {
+            "cotista": [
+              4.0,
+              4.5
+            ],
+            "naoCotista": [
+              4.5,
+              5.0
+            ]
+          },
+          "demais": {
+            "cotista": [
+              4.25,
+              4.75
+            ],
+            "naoCotista": [
+              4.75,
+              5.25
+            ]
+          }
+        },
+        "tetoImovelMinimo": 210000,
+        "degraus": [
+          {
+            "rendaMaxima": 2160,
+            "norteNordeste": {
+              "cotista": 4.0,
+              "naoCotista": 4.5
+            },
+            "demais": {
+              "cotista": 4.25,
+              "naoCotista": 4.75
+            }
+          },
+          {
+            "rendaMaxima": 2850,
+            "norteNordeste": {
+              "cotista": 4.25,
+              "naoCotista": 4.75
+            },
+            "demais": {
+              "cotista": 4.5,
+              "naoCotista": 5.0
+            }
+          },
+          {
+            "rendaMaxima": 3200,
+            "norteNordeste": {
+              "cotista": 4.5,
+              "naoCotista": 5.0
+            },
+            "demais": {
+              "cotista": 4.75,
+              "naoCotista": 5.25
+            }
+          }
+        ]
+      },
+      {
+        "faixa": 2,
+        "rendaMaxima": 5000,
+        "tetoImovel": 275000,
+        "subsidio": true,
+        "taxas": {
+          "norteNordeste": {
+            "cotista": [
+              4.75,
+              6.5
+            ],
+            "naoCotista": [
+              5.25,
+              7.0
+            ]
+          },
+          "demais": {
+            "cotista": [
+              5.0,
+              6.5
+            ],
+            "naoCotista": [
+              5.5,
+              7.0
+            ]
+          }
+        },
+        "tetoImovelMinimo": 210000,
+        "degraus": [
+          {
+            "rendaMaxima": 3500,
+            "norteNordeste": {
+              "cotista": 4.75,
+              "naoCotista": 5.25
+            },
+            "demais": {
+              "cotista": 5.0,
+              "naoCotista": 5.5
+            }
+          },
+          {
+            "rendaMaxima": 4000,
+            "norteNordeste": {
+              "cotista": 5.5,
+              "naoCotista": 6.0
+            },
+            "demais": {
+              "cotista": 5.5,
+              "naoCotista": 6.0
+            }
+          },
+          {
+            "rendaMaxima": 5000,
+            "norteNordeste": {
+              "cotista": 6.5,
+              "naoCotista": 7.0
+            },
+            "demais": {
+              "cotista": 6.5,
+              "naoCotista": 7.0
+            }
+          }
+        ]
+      },
+      {
+        "faixa": 3,
+        "rendaMaxima": 9600,
+        "tetoImovel": 400000,
+        "subsidio": true,
+        "taxas": {
+          "norteNordeste": {
+            "cotista": [
+              7.66,
+              7.66
+            ],
+            "naoCotista": [
+              8.16,
+              8.16
+            ]
+          },
+          "demais": {
+            "cotista": [
+              7.66,
+              7.66
+            ],
+            "naoCotista": [
+              8.16,
+              8.16
+            ]
+          }
+        },
+        "degraus": [
+          {
+            "rendaMaxima": 9600,
+            "norteNordeste": {
+              "cotista": 7.66,
+              "naoCotista": 8.16
+            },
+            "demais": {
+              "cotista": 7.66,
+              "naoCotista": 8.16
+            }
+          }
+        ]
+      },
+      {
+        "faixa": 4,
+        "rendaMaxima": 13000,
+        "tetoImovel": 600000,
+        "subsidio": false,
+        "taxas": {
+          "norteNordeste": {
+            "cotista": [
+              10.0,
+              10.0
+            ],
+            "naoCotista": [
+              10.0,
+              10.0
+            ]
+          },
+          "demais": {
+            "cotista": [
+              10.0,
+              10.0
+            ],
+            "naoCotista": [
+              10.0,
+              10.0
+            ]
+          }
+        },
+        "degraus": [
+          {
+            "rendaMaxima": 13000,
+            "norteNordeste": {
+              "cotista": 10.0,
+              "naoCotista": 10.0
+            },
+            "demais": {
+              "cotista": 10.0,
+              "naoCotista": 10.0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "procotista": {
+    "fonte": "Ministério das Cidades, Minha Casa, Minha Vida - Linha Financiada (tabela de taxa de juros nominal, atualizada em 28/06/2026): Pró-Cotista 8,66% ao ano nominal (~9,01% efetiva). Conferido em 23/10/2026.",
+    "caixa": {
+      "taxa": 8.66,
+      "nominal": true
+    },
+    "bb": {
+      "taxa": 8.66,
+      "nominal": true
+    }
+  }
+}
