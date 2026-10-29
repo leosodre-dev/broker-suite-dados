@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-10-23",
+  "atualizadoEm": "2026-10-29",
   "ivar": {
     "2024-01": 4.34,
     "2024-02": 1.79,
@@ -433,39 +433,54 @@
       "nominal": false,
       "mip": null,
       "dfi": null,
-      "tarifa": null
+      "tarifa": null,
+      "fonte": "Simulador oficial da Caixa (SBPE, simulação rápida), conferido em 16/10/2026: taxa anual estimada de 11,49% efetiva (10,93% nominal).",
+      "conferidoEm": "2026-10-16",
+      "observacao": "Taxa estimada pelo simulador da Caixa; a taxa final depende da análise de crédito."
     },
     "bb": {
       "taxa": 11.6,
-      "nominal": true,
+      "nominal": false,
       "mip": null,
       "dfi": null,
-      "tarifa": null
+      "tarifa": null,
+      "fonte": "Site do BB, Financiamento Imobiliário, linha SFH: \"Taxa de juros efetiva a partir de 11,60% a.a.\", conferido em 29/10/2026.",
+      "conferidoEm": "2026-10-29",
+      "observacao": "Linha SFH: imóveis até R$ 2,25 milhões, com FGTS. O BB informa que prazos menores têm taxa menor. Acima de R$ 2,25 milhões (SBPE-CH): a partir de 13,99% efetiva."
     },
     "itau": {
-      "taxa": 11.99,
-      "nominal": true,
+      "taxa": 14.85,
+      "nominal": false,
       "mip": null,
       "dfi": null,
-      "tarifa": null
+      "tarifa": null,
+      "fonte": "Site do Itaú, Crédito Imobiliário: \"Taxa a partir de 14,85% a.a. + TR\", conferido em 29/10/2026. O Itaú informa as taxas como efetivas (guia de cálculo das prestações).",
+      "conferidoEm": "2026-10-29",
+      "observacao": "Uniclass: a partir de 13,30% (site). Menor taxa do Itaú: 12,95% desde 29/10/2026 (informado à Exame). Acima de 12% ao ano a operação fica fora do SFH."
     },
     "santander": {
       "taxa": 11.69,
-      "nominal": true,
+      "nominal": false,
       "mip": null,
       "dfi": null,
-      "tarifa": null
+      "tarifa": null,
+      "fonte": "Site do Santander, Crédito Imobiliário: \"a partir de 11,69% ao ano + TR\", conferido em 29/10/2026. Exemplo oficial (27/01/2026): R$ 300 mil em 35 anos, 1ª parcela R$ 3.618,80, CET 12,44% a.a. sem TR — a conta só fecha com a taxa efetiva.",
+      "conferidoEm": "2026-10-29",
+      "observacao": "Financia até 90% do imóvel residencial, em até 35 anos."
     },
     "bradesco": {
-      "taxa": 11.45,
-      "nominal": true,
+      "taxa": 15.0,
+      "nominal": false,
       "mip": null,
       "dfi": null,
-      "tarifa": null
+      "tarifa": null,
+      "fonte": "Comunicado do Bradesco a parceiros, divulgado pela Exame em 27/10/2026 (o site do banco não mostra a taxa); conferido em 29/10/2026.",
+      "conferidoEm": "2026-10-29",
+      "observacao": "Vale desde 26/10/2026 para a maioria dos clientes; Private: a partir de 13,6%. O banco não informa se é nominal ou efetiva. Acima de 12% ao ano a operação fica fora do SFH."
     }
   },
   "mcmv": {
-    "fonte": "Ministério das Cidades, página MCMV-FGTS (atualizada em 28/06/2026), e Portaria MCID nº 333/2026",
+    "fonte": "Ministério das Cidades, página MCMV-FGTS (atualizada em 28/10/2026), e Portaria MCID nº 333/2026",
     "faixas": [
       {
         "faixa": 1,
@@ -599,7 +614,7 @@
         "faixa": 3,
         "rendaMaxima": 9600,
         "tetoImovel": 400000,
-        "subsidio": true,
+        "subsidio": false,
         "taxas": {
           "norteNordeste": {
             "cotista": [
@@ -680,7 +695,7 @@
     ]
   },
   "procotista": {
-    "fonte": "Ministério das Cidades, Minha Casa, Minha Vida - Linha Financiada (tabela de taxa de juros nominal, atualizada em 28/06/2026): Pró-Cotista 8,66% ao ano nominal (~9,01% efetiva). Conferido em 23/10/2026.",
+    "fonte": "Ministério das Cidades, Minha Casa, Minha Vida - Linha Financiada (tabela de taxa de juros nominal, atualizada em 28/10/2026): Pró-Cotista 8,66% ao ano nominal (~9,01% efetiva); imóveis até R$ 2,25 milhões; exige saldo na conta do FGTS. O BB mostra 9% efetiva no site (equivalente). Conferido em 29/10/2026.",
     "caixa": {
       "taxa": 8.66,
       "nominal": true
