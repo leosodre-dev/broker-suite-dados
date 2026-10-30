@@ -35,11 +35,23 @@ Uma regra por município. Campos:
   `descricao`, `marcadaPorPadrao`
 
 ### `bancos`
-Taxa anunciada, seguros e tarifa de referência por banco
+Taxa divulgada, seguros e tarifa de referência por banco
 (`caixa`, `bb`, `itau`, `santander`, `bradesco`):
-- `taxa`: % ao ano (ex.: `11.19`), ou `null`
-- `nominal`: `true` para taxa nominal, `false` para efetiva
+- `taxa`: % ao ano (ex.: `11.69`), ou `null`
+- `nominal`: `true` para taxa nominal, `false` para efetiva (os bancos
+  divulgam a taxa **efetiva**; no SFH o custo efetivo máximo é 12% ao ano)
 - `mip`, `dfi`: % ao mês (ex.: `0.025`), ou `null`
 - `tarifa`: R$ por mês (ex.: `25.00`), ou `null`
+- `fonte`: de onde veio a taxa (site do banco, simulador oficial, comunicado)
+- `conferidoEm`: dia em que a taxa foi conferida (`"2026-10-29"`); depois de
+  45 dias o app pede para conferir
+- `observacao`: texto curto opcional (outras faixas de taxa, limites)
 
 O que cada usuário cadastrar no próprio celular tem prioridade sobre esta base.
+
+### `taxasBcb` (opcional, para a versão web)
+Médias do Banco Central do último mês, quando o navegador não consegue
+consultar o Banco Central:
+`{"mes": "2026-09", "sfh": {"itau": {"instituicao": "ITAÚ UNIBANCO S.A.", "taxa": 11.87}}, "foraSfh": {"itau": {"taxa": 12.14}}}`
+- `sfh`: "taxas reguladas, pós-fixado referenciado em TR" (contratos do SFH)
+- `foraSfh`: "taxas de mercado, pós-fixado referenciado em TR" (fora do SFH, taxa livre)
