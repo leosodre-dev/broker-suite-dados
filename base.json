@@ -1,6 +1,6 @@
 {
   "versao": 1,
-  "atualizadoEm": "2026-11-06",
+  "atualizadoEm": "2026-11-09",
   "ivar": {
     "2024-01": 4.34,
     "2024-02": 1.79,
@@ -460,14 +460,14 @@
       "observacao": "Uniclass: a partir de 13,30% (site). Menor taxa do Itaú: 12,95% desde 29/10/2026 (informado à Exame). Acima de 12% ao ano a operação fica fora do SFH."
     },
     "santander": {
-      "taxa": 11.69,
+      "taxa": 12.49,
       "nominal": false,
       "mip": null,
       "dfi": null,
       "tarifa": null,
-      "fonte": "Site do Santander, Crédito Imobiliário: \"a partir de 11,69% ao ano + TR\", conferido em 29/10/2026. Exemplo oficial (27/01/2026): R$ 300 mil em 35 anos, 1ª parcela R$ 3.618,80, CET 12,44% a.a. sem TR — a conta só fecha com a taxa efetiva.",
-      "conferidoEm": "2026-10-29",
-      "observacao": "Financia até 90% do imóvel residencial, em até 35 anos."
+      "fonte": "Santander confirmou à Exame (29/10/2026) e à InfoMoney: taxa mínima de 11,69% para 12,49% ao ano + TR, a partir de 30/10/2026; conferido em 09/11/2026. O site do banco ainda mostrava 11,69% em 09/11/2026 (página não atualizada). Taxa tratada como efetiva, como o banco divulga.",
+      "conferidoEm": "2026-11-09",
+      "observacao": "Vale desde 30/10/2026 para a maioria dos clientes. Financia até 90% do imóvel residencial, em até 35 anos. Acima de 12% ao ano a operação fica fora do SFH."
     },
     "bradesco": {
       "taxa": 15.0,
